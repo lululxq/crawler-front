@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  app:
+    image: crawler-front
+    container_name: crawler-front
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/web:/app
+      - ./logs:/var/log/nginx
+      - /app/node_modules
+    networks:
+      - public
+    expose:
+      - 8080
+    ports:
+      - 8081:8080
+
+networks:
+  public:
