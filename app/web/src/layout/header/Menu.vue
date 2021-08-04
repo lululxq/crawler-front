@@ -169,10 +169,10 @@
         data-kt-menu-placement="bottom-start"
         class="menu-item menu-lg-down-accordion me-lg-1"
       >
-        <span class="menu-link py-3">
-          <span class="menu-title">{{ translate("megaMenu") }}</span>
-          <span class="menu-arrow d-lg-none"></span>
-        </span>
+<!--        <span class="menu-link py-3">-->
+<!--          <span class="menu-title">{{ translate("megaMenu") }}</span>-->
+<!--          <span class="menu-arrow d-lg-none"></span>-->
+<!--        </span>-->
         <div
           class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown w-100 w-lg-600px p-5 p-lg-5"
           style=""

@@ -253,25 +253,25 @@
             <div class="separator mx-1 my-4"></div>
           </div>
         </div>
-        <div class="menu-item">
-          <router-link class="menu-link" to="/documentation/changelog">
-            <span class="menu-icon">
-              <i
-                v-if="asideMenuIcons === 'font'"
-                class="bi bi-card-text fs-3"
-              ></i>
-              <span
-                v-else-if="asideMenuIcons === 'svg'"
-                class="svg-icon svg-icon-2"
-              >
-                <inline-svg src="media/icons/duotone/Files/File.svg" />
-              </span>
-            </span>
-            <span class="menu-title"
-              >{{ translate("changelog") }} v{{ version }}</span
-            >
-          </router-link>
-        </div>
+<!--        <div class="menu-item">-->
+<!--          <router-link class="menu-link" to="/documentation/changelog">-->
+<!--            <span class="menu-icon">-->
+<!--              <i-->
+<!--                v-if="asideMenuIcons === 'font'"-->
+<!--                class="bi bi-card-text fs-3"-->
+<!--              ></i>-->
+<!--              <span-->
+<!--                v-else-if="asideMenuIcons === 'svg'"-->
+<!--                class="svg-icon svg-icon-2"-->
+<!--              >-->
+<!--                <inline-svg src="media/icons/duotone/Files/File.svg" />-->
+<!--              </span>-->
+<!--            </span>-->
+<!--            <span class="menu-title"-->
+<!--              >{{ translate("changelog") }} v{{ version }}</span-->
+<!--            >-->
+<!--          </router-link>-->
+<!--        </div>-->
       </template>
     </div>
     <!--end::Menu-->

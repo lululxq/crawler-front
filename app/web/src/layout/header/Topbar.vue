@@ -4,14 +4,14 @@
     <!--begin::Activities-->
     <div class="d-flex align-items-center ms-1 ms-lg-3">
       <!--begin::drawer toggle-->
-      <div
-        class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"
-        id="kt_activities_toggle"
-      >
-        <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotone/Media/Equalizer.svg" />
-        </span>
-      </div>
+<!--      <div-->
+<!--        class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"-->
+<!--        id="kt_activities_toggle"-->
+<!--      >-->
+<!--        <span class="svg-icon svg-icon-1">-->
+<!--          <inline-svg src="media/icons/duotone/Media/Equalizer.svg" />-->
+<!--        </span>-->
+<!--      </div>-->
       <!--end::drawer toggle-->
     </div>
     <!--end::Activities-->
@@ -19,17 +19,17 @@
     <!--begin::Quick links-->
     <div class="d-flex align-items-center ms-1 ms-lg-3">
       <!--begin::Menu-->
-      <div
-        class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"
-        data-kt-menu-trigger="click"
-        data-kt-menu-attach="parent"
-        data-kt-menu-placement="bottom-end"
-        data-kt-menu-flip="bottom"
-      >
-        <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotone/Layout/Layout-4-blocks.svg" />
-        </span>
-      </div>
+<!--      <div-->
+<!--        class="btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px"-->
+<!--        data-kt-menu-trigger="click"-->
+<!--        data-kt-menu-attach="parent"-->
+<!--        data-kt-menu-placement="bottom-end"-->
+<!--        data-kt-menu-flip="bottom"-->
+<!--      >-->
+<!--        <span class="svg-icon svg-icon-1">-->
+<!--          <inline-svg src="media/icons/duotone/Layout/Layout-4-blocks.svg" />-->
+<!--        </span>-->
+<!--      </div>-->
       <KTQuickLinksMenu></KTQuickLinksMenu>
       <!--end::Menu-->
     </div>
@@ -58,17 +58,17 @@
     <!--begin::Notifications-->
     <div class="d-flex align-items-center ms-1 ms-lg-3">
       <!--begin::Menu-->
-      <div
-        class="btn btn-icon btn-active-light-primary position-relative w-30px h-30px w-md-40px h-md-40px"
-        data-kt-menu-trigger="click"
-        data-kt-menu-attach="parent"
-        data-kt-menu-placement="bottom-end"
-        data-kt-menu-flip="bottom"
-      >
-        <span class="svg-icon svg-icon-1">
-          <inline-svg src="media/icons/duotone/Code/Compiling.svg" />
-        </span>
-      </div>
+<!--      <div-->
+<!--        class="btn btn-icon btn-active-light-primary position-relative w-30px h-30px w-md-40px h-md-40px"-->
+<!--        data-kt-menu-trigger="click"-->
+<!--        data-kt-menu-attach="parent"-->
+<!--        data-kt-menu-placement="bottom-end"-->
+<!--        data-kt-menu-flip="bottom"-->
+<!--      >-->
+<!--        <span class="svg-icon svg-icon-1">-->
+<!--          <inline-svg src="media/icons/duotone/Code/Compiling.svg" />-->
+<!--        </span>-->
+<!--      </div>-->
       <KTNotificationsMenu></KTNotificationsMenu>
       <!--end::Menu-->
     </div>

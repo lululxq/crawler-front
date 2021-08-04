@@ -63,22 +63,22 @@
         class="btn btn-primary w-100"
         >Preview Metronic</router-link
       >
-      <router-link
-        v-else
-        to="/documentation/doc-overview"
-        class="btn btn-custom btn-primary w-100"
-        data-bs-toggle="tooltip"
-        data-bs-trigger="hover"
-        data-bs-delay-show="8000"
-        title="Check out the complete documentation with over 100 components"
-      >
-        <span class="btn-label">
-          {{ t("docsAndComponents") }}
-        </span>
-        <span class="svg-icon btn-icon svg-icon-2">
-          <inline-svg src="media/icons/duotone/General/Clipboard.svg" />
-        </span>
-      </router-link>
+<!--      <router-link-->
+<!--        v-else-->
+<!--        to="/documentation/doc-overview"-->
+<!--        class="btn btn-custom btn-primary w-100"-->
+<!--        data-bs-toggle="tooltip"-->
+<!--        data-bs-trigger="hover"-->
+<!--        data-bs-delay-show="8000"-->
+<!--        title="Check out the complete documentation with over 100 components"-->
+<!--      >-->
+<!--        <span class="btn-label">-->
+<!--          {{ t("docsAndComponents") }}-->
+<!--        </span>-->
+<!--        <span class="svg-icon btn-icon svg-icon-2">-->
+<!--          <inline-svg src="media/icons/duotone/General/Clipboard.svg" />-->
+<!--        </span>-->
+<!--      </router-link>-->
     </div>
     <!--end::Footer-->
   </div>

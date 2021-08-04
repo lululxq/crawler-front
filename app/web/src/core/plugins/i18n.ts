@@ -35,7 +35,7 @@ const messages = {
     widgetsStatistics: "Statistics",
     widgetsCharts: "Charts",
     widgetsMixed: "Mixed",
-    widgetsTables: "Tables",
+    widgetsTables: "任务",
     widgetsFeeds: "Feeds",
     changelog: "Changelog",
     docsAndComponents: "Docs & Components",
